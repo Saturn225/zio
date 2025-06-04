@@ -133,7 +133,7 @@ object PromiseSpec extends ZIOBaseSpec {
         _      <- p.complete(Exit.unit)
         _      <- ZIO.foreach(fibers)(_.await)
       } yield assertCompletes
-    },
+    }@@ nonFlaky(100),
     suite("State")(
       suite("add")(
         test("stack safety") {
