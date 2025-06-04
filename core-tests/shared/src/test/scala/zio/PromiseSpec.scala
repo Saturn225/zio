@@ -1,6 +1,7 @@
 package zio
 
 import zio.test.Assertion._
+import zio.test.TestAspect.nonFlaky
 import zio.test._
 
 object PromiseSpec extends ZIOBaseSpec {
