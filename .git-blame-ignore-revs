@@ -1,2 +1,5 @@
 # Added scalafmt for Scala 3
 3ee6e584f1b9d61391d915dc3f722c318f54fbad
+
+# Scala Steward: Reformat with scalafmt 3.11.3
+3455f236b0138a0164095423a45f71c6faa2c137
